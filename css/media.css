@@ -1,0 +1,126 @@
+@media (max-width: 700px) {
+  main {
+  }
+  .container {
+    width: 100%;
+    max-width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  main .hero__container {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  .hero__box .box__bir-title {
+    display: flex;
+    width: 327px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 1.85px;
+  }
+  main .hero__container .hero__kichik-rasmlar {
+    display: none;
+  }
+  main .hero__container .hero__box .box__bir-title {
+  }
+  .odam-rasmi {
+    width: 24px;
+  }
+
+  main .hero__container .hero__box {
+    width: 327px;
+  }
+  .hero__rasmlar .asosiy-rasm {
+    width: 375px;
+    height: 300px;
+  }
+  main .hero__container .hero__box .box__p {
+    width: 327px;
+    font-size: 15px;
+    line-height: 25px;
+  }
+  main .hero__container .hero__box .hero__box__title {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .nav {
+    display: none;
+  }
+  .nav a {
+    display: none;
+    color: #bf1b1b;
+  }
+  .hero__rasmlar {
+    display: none;
+  }
+  main .hero__container .asosiy-rasm__ichidagilar {
+    position: absolute;
+    display: flex;
+  }
+  .asosiy-rasm__ichidagilar .chapga {
+    position: absolute;
+    margin-top: -160px;
+    margin-left: 20px;
+    z-index: 1;
+  }
+  .asosiy-rasm__ichidagilar .chapga:hover {
+    box-shadow: 0px 5px 36px 14px rgba(213, 182, 26, 0.982);
+    border-radius: 50px;
+  }
+  .asosiy-rasm__ichidagilar .ongga {
+    position: absolute;
+    margin-top: -160px;
+    margin-left: 315px;
+    z-index: 1;
+  }
+  .asosiy-rasm__ichidagilar .ongga:hover {
+    box-shadow: 0px 5px 36px 14px rgba(213, 182, 26, 0.982);
+    border-radius: 50px;
+  }
+  .hero__box {
+    width: 100%;
+    max-width: 375px;
+  }
+  main .hero__container .hero__box .narxlar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  main .hero__container .hero__box .narx h2 {
+    width: 125px;
+    height: 28px;
+  }
+  main .hero__container .hero__box .narx {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+  .box__p {
+    width: 375px;
+  }
+  .asosiy-rasm {
+    position: relative;
+    top: 0;
+  }
+  main .hero__container .hero__box .buttonlar {
+    display: flex;
+    flex-direction: column;
+  }
+  main .hero__container .hero__box .btn {
+    width: 100%;
+    height: 56px;
+  }
+  main .hero__container .hero__box .button1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 100%;
+  }
+}

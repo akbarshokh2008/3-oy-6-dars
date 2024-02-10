@@ -1,0 +1,170 @@
+header {
+  background-color: #fff;
+}
+header .header__container {
+  display: flex;
+  align-items: center;
+  padding-top: 13px;
+  padding-bottom: 11px;
+  margin-bottom: 15px;
+}
+header .header__logo {
+  display: flex;
+  margin-right: 56px;
+}
+header .nav {
+  display: flex;
+  align-items: end;
+  gap: 33px;
+  margin-right: auto;
+}
+header .nav a {
+  color: rgb(105, 112, 125);
+  font-family: Kumbh Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+}
+header .nav a:hover {
+  color: #12ad27;
+}
+header .header__profil {
+  gap: 24px;
+  display: flex;
+  align-items: center;
+}
+header .line {
+  width: 100%;
+  border: 1px solid #e4e9f2;
+}
+
+main .hero__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  padding-top: 90px;
+}
+main .hero__container .hero__rasmlar {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-left: 40px;
+}
+main .hero__container .asosiy-rasm {
+  position: relative;
+  z-index: 1;
+}
+main .hero__container .hero__kichik-rasmlar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .hero__container .asosiy-rasm__ichidagilar {
+  display: none;
+  position: absolute;
+}
+main .hero__container .hero__box {
+  display: flex;
+  flex-direction: column;
+  margin-top: -80px;
+}
+main .hero__container .hero__box .box__p {
+  width: 445px;
+  color: rgb(105, 112, 125);
+  font-family: Kumbh Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  padding-bottom: 28px;
+}
+main .hero__container .hero__box .box__bir-title {
+  color: rgb(255, 126, 27);
+  font-family: Kumbh Sans;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding-bottom: 24px;
+}
+main .hero__container .hero__box .hero__box__title {
+  color: rgb(29, 32, 38);
+  font-family: Kumbh Sans;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0px;
+  color: #1d2026;
+  padding-bottom: 32px;
+}
+main .hero__container .hero__box .narx {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+main .hero__container .hero__box .narx_h3 {
+  background-color: #ffeee2;
+  padding: 6px;
+  border-radius: 5px;
+}
+main .hero__container .hero__box .narxlar {
+  display: flex;
+  flex-direction: column;
+}
+main .hero__container .hero__box .narx h2 {
+  color: rgb(29, 32, 38);
+  font-family: Kumbh Sans;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0px;
+}
+main .hero__container .hero__box .narx h3 {
+  color: rgb(255, 126, 27);
+  font-family: Kumbh Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0px;
+}
+main .hero__container .hero__box .button1 {
+  border-radius: 8px;
+  width: 157px;
+  display: inline-flex;
+  background-color: #d7ddec;
+  padding: 14px 16px;
+  gap: 40px;
+}
+main .hero__container .hero__box .button1:hover {
+  background-color: #a0f8e2;
+}
+main .hero__container .hero__box .nol {
+  font-size: 24px;
+}
+main .hero__container .hero__box .btn-img {
+  padding-right: 5px;
+}
+main .hero__container .hero__box .narx__xira {
+  width: 60px;
+  color: rgb(182, 188, 200);
+  font-family: Kumbh Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0px;
+  padding-top: 10px;
+}
+main .hero__container .hero__box .buttonlar {
+  display: flex;
+  padding-top: 40px;
+  gap: 20px;
+}
+main .hero__container .hero__box .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 260px;
+}/*# sourceMappingURL=style.css.map */
