@@ -1,6 +1,9 @@
 header {
   background-color: #fff;
 }
+header .birinchi__img {
+  display: none;
+}
 header .header__container {
   display: flex;
   align-items: center;
